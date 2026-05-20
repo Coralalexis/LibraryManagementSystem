@@ -5,7 +5,7 @@ A Java-based Library Management System that models a diverse inventory of librar
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Diverse Catalog Parsing:** Dynamically reads and generates inventory from a flat text file (`inventory.txt`), distinguishing media categories safely without application crashes.
 * **Loan Operations:** Standardized interface modeling for processing checking out and returning items seamlessly, complete with stateful validation (cannot check out an already checked-out item).
@@ -14,7 +14,7 @@ A Java-based Library Management System that models a diverse inventory of librar
 
 ---
 
-## 🛠️ Project Architecture
+##   Project Architecture
 
 The program follows a strictly decoupled hierarchy designed for clean extensibility:
 
@@ -41,7 +41,7 @@ The helper method handles parsing via comma-separated data paths. The local text
 book, B001, The Great Gatsby, F. Scott Fitzgerald, 1925, Fiction, 9780743273565
 dvd, D102, Inception, Christopher Nolan, 2010, 148, PG-13
 magazine, M305, National Geographic, Various Authors, 2024, 1452, May
-💻 Technical Implementation Highlights
+  Technical Implementation Highlights
 Polymorphic Natural Sorting
 Items are sorted transparently utilizing a two-tiered check inside the custom compareTo implementation:
 
@@ -56,7 +56,7 @@ FileNotFoundException: Catches file parsing complications safely on launch witho
 
 IllegalArgumentException: Standardized fallback layer protecting system inventory generation against corrupted file formats.
 
-🔧 Getting Started
+  Getting Started
 Prerequisites
 Java Development Kit (JDK) 8 or higher.
 
